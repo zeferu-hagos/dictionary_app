@@ -1,11 +1,13 @@
 
-import './App.css';
-import RegistrationForm from './form/Addwords';
+
+import React from 'react';
+import Dictionary from './newWords/Dictionary';
+
 
 function App() {
   return (
     <div className="App">
-     <RegistrationForm/>
+      <Dictionary />
     </div>
   );
 }
