@@ -11,7 +11,7 @@ function Dictionary() {
 
   return (
     <div>
-      <h1>Dictionary App</h1>
+      
       <ul>
         {words.map((word, index) => (
           <li key={index}>{word}</li>
